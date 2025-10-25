@@ -8,10 +8,8 @@ The **Food-Ordering-Systems** is a web-based application designed to make online
 
 - 🛒 **Browse and search food items by category**  
 - 📦 **Add to cart and place online orders**  
-- 👤 **User registration and login**  
-- 📊 **Admin panel for managing products and orders**  
+- 👤 **User registration and login**    
 - 📍 **Delivery address input and order tracking**  
-- 💳 **Payment method integration (optional)**  
 - 📱 **Responsive UI for mobile and desktop**  
 
 ---
@@ -31,8 +29,8 @@ The **Food-Ordering-Systems** is a web-based application designed to make online
 /server → Backend API and logic (Node.js + Express)
 /config → Configuration files (DB, auth, etc.)
 
-2️⃣ Install dependencies
-    ## Frontend
+# 2️⃣ Install dependencies
+   ## Frontend
 
     cd frontend
     npm run dev
@@ -43,8 +41,9 @@ The **Food-Ordering-Systems** is a web-based application designed to make online
     cd backend
     npm run server
 
-3️⃣ Configure environment variables
-    Create a .env file in /server:
+# 3️⃣ Configure environment variables
+    
+   - Create a .env file in /server:
        PORT=5000
        MONGO_URI=your_mongodb_connection_string
        JWT_SECRET=your_secret_key
