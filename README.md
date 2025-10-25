@@ -32,13 +32,13 @@ The **Food-Ordering-Systems** is a web-based application designed to make online
 /config → Configuration files (DB, auth, etc.)
 
 2️⃣ Install dependencies
-    Frontend
+    ## Frontend
 
     cd frontend
     npm run dev
 
 
-    Backend
+   ## Backend
 
     cd backend
     npm run server
